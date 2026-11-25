@@ -1,0 +1,866 @@
+{
+ "010001|1497752281": {
+  "match": false,
+  "reason": "Noland LTACH co-located inside the host hospital; separate provider"
+ },
+ "010086|1083402895": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "010086|1447049598": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "010086|1730978875": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "010131|1164379590": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "012006|1033125687": {
+  "match": false,
+  "reason": "Mobile Infirmary rehab unit; the CCN is the separate Infirmary LTAC hospital"
+ },
+ "012006|1306323522": {
+  "match": false,
+  "reason": "Mobile Infirmary main hospital, not the co-located LTAC"
+ },
+ "012006|1548710197": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "012006|1558364802": {
+  "match": false,
+  "reason": "Mobile Infirmary main hospital, not the co-located LTAC"
+ },
+ "012006|1720465461": {
+  "match": false,
+  "reason": "Mobile Infirmary main hospital, not the co-located LTAC"
+ },
+ "012006|1902812563": {
+  "match": false,
+  "reason": "Mobile Infirmary psych unit, not the LTAC"
+ },
+ "020001|1467547265": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "030002|1902802861": {
+  "match": false,
+  "reason": "Select Specialty LTACH inside Banner; separate provider"
+ },
+ "030119|1992735088": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "030134|1790016244": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "032001|1851568687": {
+  "match": false,
+  "reason": "Dignity Health (St. Joseph's) host; the CCN is the Select Specialty LTACH inside it"
+ },
+ "032001|1982733655": {
+  "match": false,
+  "reason": "Dignity Health (St. Joseph's) host; the CCN is the Select Specialty LTACH inside it"
+ },
+ "040088|1528010287": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "040088|1689625568": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050077|1154308005": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050077|1659359446": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050279|1821484262": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050279|1851787295": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050517|1396959516": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050517|1679879589": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050599|1508831363": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050599|1831165703": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050599|1922074897": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050660|1700090388": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050674|1013253681": {
+  "match": false,
+  "reason": "Permanente Medical Group is the physician group, not Kaiser Foundation Hospital"
+ },
+ "050684|1881781482": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "050765|1174793459": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1023062098": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1124073846": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1740234715": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1750335725": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1831143809": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1841244811": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1922052992": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "060032|1932153905": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "100006|1336045244": {
+  "match": false,
+  "reason": "Orlando Health corporate registration at a different downtown address"
+ },
+ "100050|1922128826": {
+  "match": false,
+  "reason": "Emergency-physician corporation at the hospital address"
+ },
+ "100087|1245294826": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "100087|1447701495": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "104001|1386713089": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "104059|1033215504": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "110236|1205281318": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "110237|1700883246": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "140119|1447406657": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "140281|1922551100": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "150056|1215341391": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "150161|1316196009": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "170103|1003885112": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "174022|1528040953": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "180018|1366744617": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "180056|1518218072": {
+  "match": false,
+  "reason": "Unrelated registrant name ('KEMP') at the hospital address"
+ },
+ "180141|1558771063": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "180141|1861554438": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "182002|1720162399": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "183026|1417071663": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "190317|1285253252": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "192015|1033196456": {
+  "match": false,
+  "reason": "Ochsner main hospital; the CCN is the separate extended-care LTACH"
+ },
+ "192030|1013547504": {
+  "match": false,
+  "reason": "Beacon Behavioral is a different hospital in the same building (different suite)"
+ },
+ "194025|1215033535": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "194044|1619437522": {
+  "match": false,
+  "reason": "Individual APRN practice, not the hospital"
+ },
+ "210004|1396829701": {
+  "match": false,
+  "reason": "Internal-medicine physician practice"
+ },
+ "210017|1598417412": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "210048|1518060599": {
+  "match": false,
+  "reason": "EMS / emergency physician group"
+ },
+ "210048|1619903622": {
+  "match": false,
+  "reason": "EMS / emergency physician group"
+ },
+ "210058|1841337805": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "214003|1144703109": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "214003|1316918048": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "214003|1558333138": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "214003|1861643595": {
+  "match": false,
+  "reason": "Stonebridge school program at a different Brook Lane address"
+ },
+ "214003|1962985929": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "220073|1467289645": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "220086|1467686378": {
+  "match": false,
+  "reason": "Unrelated program registered at the hospital address"
+ },
+ "220110|1083038657": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "220110|1912335423": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "230038|1336074731": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "230038|1831725399": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "230059|1043598923": {
+  "match": false,
+  "reason": "Graduate medical education consortium"
+ },
+ "230059|1609800614": {
+  "match": false,
+  "reason": "Great Lakes Specialty LTACH inside Saint Mary's"
+ },
+ "230100|1144115288": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "230104|1023326667": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "230104|1043551146": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "230110|1265367502": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "233300|1518216787": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "240002|1457393035": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "250082|1306921887": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "250136|1285681841": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260001|1811084635": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260032|1073729596": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260032|1174907257": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260032|1649487778": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260032|1730206665": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260102|1376686600": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "260119|1962446054": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "264004|1104878792": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "310014|1053654749": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "310014|1093187163": {
+  "match": false,
+  "reason": "Physician (OB/GYN) taxonomy, not the hospital"
+ },
+ "310014|1215165832": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "310014|1538300579": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "310014|1881931707": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "310034|1326481078": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "310034|1699851758": {
+  "match": false,
+  "reason": "Family health center clinic"
+ },
+ "310074|1730620428": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "312024|1386646131": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "320062|1114960093": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330014|1427005065": {
+  "match": false,
+  "reason": "Psychiatric professional corporation (physicians)"
+ },
+ "330059|1649628074": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330169|1790947091": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330169|1851666408": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330169|1992916878": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1164616959": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1164663365": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1174530349": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1275958050": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1750459046": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1750542940": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1962711002": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330195|1992013676": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330246|1164481529": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330246|1225097652": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330277|1346241973": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330277|1972655629": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330401|1053497248": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330401|1245318609": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "330401|1376617332": {
+  "match": false,
+  "reason": "Emergency-medicine physician group"
+ },
+ "330401|1982776753": {
+  "match": false,
+  "reason": "Hospitalist physician group"
+ },
+ "330405|1235142472": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "332008|1992713564": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "334013|1467817221": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "334061|1609312875": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "340061|1932208576": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "340098|1376985135": {
+  "match": false,
+  "reason": "Carolinas Medical Center is a different Atrium hospital (Vail Ave campus)"
+ },
+ "340098|1871998575": {
+  "match": false,
+  "reason": "Carolinas Medical Center is a different Atrium hospital (Vail Ave campus)"
+ },
+ "340184|1184948762": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "344032|1841884780": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "350019|1740475847": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "360085|1215240734": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "360125|1760569784": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "360144|1265610562": {
+  "match": false,
+  "reason": "Radiology group"
+ },
+ "364053|1538553698": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "370037|1801069299": {
+  "match": false,
+  "reason": "Psychologist professional corporation"
+ },
+ "370078|1154598605": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "370078|1578704938": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "374021|1134750649": {
+  "match": false,
+  "reason": "Parkside outpatient site, not the inpatient hospital"
+ },
+ "374021|1437370772": {
+  "match": false,
+  "reason": "Parkside outpatient site, not the inpatient hospital"
+ },
+ "374021|1851327464": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "374025|1770932410": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "390035|1669405072": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "390079|1356341523": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "390111|1003175514": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "390137|1255585303": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "392025|1750798740": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "420004|1407053853": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "420018|1154373843": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "420018|1154432458": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "420038|1568918662": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "420068|1457309247": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "430090|1245516780": {
+  "match": false,
+  "reason": "Clinic taxonomy at a different address"
+ },
+ "440007|1104995281": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "440065|1669567897": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "440125|1518945799": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "440173|1558343566": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450034|1194813758": {
+  "match": false,
+  "reason": "Dubuis LTACH co-located in Christus hospital"
+ },
+ "450034|1922522606": {
+  "match": false,
+  "reason": "LHC Group LTACH co-located in Christus hospital"
+ },
+ "450034|1932334125": {
+  "match": false,
+  "reason": "Christus Continuing Care LTACH, separate provider"
+ },
+ "450132|1295121457": {
+  "match": false,
+  "reason": "ContinueCare LTACH co-located in Medical Center Hospital"
+ },
+ "450395|1689650616": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450571|1881670339": {
+  "match": false,
+  "reason": "Kindred/SCCI LTACH co-located in Shannon"
+ },
+ "450651|1205880275": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1194026534": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1295795573": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1306126974": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1417246059": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1558321836": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1619259751": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450670|1962784884": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "450871|1295173664": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "452086|1811580434": {
+  "match": false,
+  "reason": "Oceans Behavioral is a different hospital on another floor"
+ },
+ "453072|1174021695": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "453301|1710233481": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "453302|1003912197": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "460052|1801903240": {
+  "match": false,
+  "reason": "Intermountain (Orem Community) is a different hospital; Timpanogos is HCA"
+ },
+ "463301|1154508653": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "463301|1225295520": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "463301|1710162755": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "474001|1861749913": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "490120|1770765612": {
+  "match": false,
+  "reason": "Unidentified 'DEMC' registrant with a women's-hospital taxonomy; not clearly Chesapeake General"
+ },
+ "490126|1285932962": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "490126|1780813881": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "492010|1114021326": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "500084|1013074061": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "500084|1134489925": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "504004|1467440602": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "504004|1679651970": {
+  "match": false,
+  "reason": "Pharmacy"
+ },
+ "510030|1619964806": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "510030|1720275571": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "510038|1154517118": {
+  "match": false,
+  "reason": "Physician 'Med Group' of the hospital"
+ },
+ "510038|1477559433": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "510058|1295042414": {
+  "match": false,
+  "reason": "Hospitalist management group"
+ },
+ "511301|1265279715": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "511301|1679241152": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "524017|1306850177": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "524017|1932714292": {
+  "match": false,
+  "reason": "Other site of the county human-services board"
+ },
+ "670004|1447287131": {
+  "match": false,
+  "reason": "Nurse practitioner taxonomy"
+ },
+ "670004|1659362630": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "670136|1902366305": {
+  "match": true,
+  "reason": "Same facility: same or campus address, hospital taxonomy, and the hospital's own legal, former or operator name"
+ },
+ "670266|1316225220": {
+  "match": false,
+  "reason": "Physician PLLC in the hospital building"
+ },
+ "670266|1356655922": {
+  "match": false,
+  "reason": "Physician PLLC in the hospital building"
+ },
+ "670266|1366756934": {
+  "match": false,
+  "reason": "Physician PLLC in the hospital building"
+ },
+ "670266|1487968434": {
+  "match": false,
+  "reason": "Physician PLLC in the hospital building"
+ },
+ "670266|1750669206": {
+  "match": false,
+  "reason": "Physician PLLC in the hospital building"
+ },
+ "670266|1902246119": {
+  "match": false,
+  "reason": "Physician PLLC in the hospital building"
+ }
+}

@@ -1,0 +1,866 @@
+{
+ "010001|1497752281": {
+  "match": false,
+  "reason": "Record B is Noland Hospital Dothan II, LLC, a separate long-term acute care hospital (taxonomy 282E00000X) co-located at the Southeast Health campus address, not Southeast Health Medical Center itself."
+ },
+ "010086|1083402895": {
+  "match": true,
+  "reason": "Same address and a general acute care hospital taxonomy, and the NPPES name is plausibly the legal operator name of Northwest Medical Center in Winfield."
+ },
+ "010086|1730978875": {
+  "match": true,
+  "reason": "Same address, and the NPPES entity (Marion Regional Health - Winfield, Inc.) appears to be the operating or legal name of Northwest Medical Center, with a hospital-unit taxonomy (275N00000X) rather than a separate LTACH or practice."
+ },
+ "010086|1447049598": {
+  "match": true,
+  "reason": "Same street address and city/ZIP; NPPES entity Marion Regional Health - Winfield, Inc. is plausibly the legal/operator name of Northwest Medical Center, and subpart 0 indicates the main organization rather than a separate co-located unit or practice."
+ },
+ "010131|1164379590": {
+  "match": true,
+  "reason": "Same address (1 Hospital Dr SW), a general acute care hospital taxonomy, and the NPPES legal entity is the Health Care Authority of the City of Huntsville, which owns Crestwood Medical Center."
+ },
+ "012006|1558364802": {
+  "match": false,
+  "reason": "A is the Infirmary Ltac Hospital, a separate long-term acute care hospital co-located at the address; B is the Mobile Infirmary Association general acute care entity, which is not the same Medicare provider."
+ },
+ "012006|1033125687": {
+  "match": false,
+  "reason": "CMS record A is the co-located Infirmary Ltac Hospital, a separate long-term acute care provider, not the Mobile Infirmary Association's acute hospital under its operator or former name, so the rule excludes it."
+ },
+ "012006|1902812563": {
+  "match": false,
+  "reason": "CMS record A is the Infirmary Ltac Hospital, a separate co-located long-term acute care hospital, which the rule excludes; NPPES record B is the operator's organization record and does not establish that A is the same Medicare provider."
+ },
+ "012006|1720465461": {
+  "match": false,
+  "reason": "Record A is Infirmary Ltac Hospital, a long-term acute care hospital at the Mobile Infirmary campus, while B is the Mobile Infirmary Association organization (general acute care taxonomy); the rule excludes a co-located LTAC hospital from matching the parent hospital."
+ },
+ "012006|1548710197": {
+  "match": false,
+  "reason": "A is the Infirmary Ltac Hospital (a long-term acute care hospital), and B is an NPPES entry under the parent system name 'Infirmary Health' with a long-term care hospital taxonomy at the same address, so it reads as the co-located LTAC or its operator rather than a clear match."
+ },
+ "012006|1306323522": {
+  "match": false,
+  "reason": "Record A is the co-located Infirmary LTAC hospital, while record B is the Mobile Infirmary Association, the parent operator of the general acute care hospital, so it does not describe the same Medicare provider."
+ },
+ "020001|1467547265": {
+  "match": true,
+  "reason": "NPPES record is the operating entity (Providence Health & Services Washington) at the same street address, with a general acute care hospital taxonomy; the ZIP differs (99506 vs 99508), so the operator-name match is plausible but not certain."
+ },
+ "030002|1902802861": {
+  "match": false,
+  "reason": "Record B is Select Specialty Hospital - Arizona, a separate long-term acute care hospital at the same address (floor 11), not Banner University Medical Center Phoenix."
+ },
+ "030119|1992735088": {
+  "match": false,
+  "reason": "Record B is an NPPES entity under Dignity Health with generic general acute care taxonomy and no facility name; address differs in ZIP (85296 vs 85297) and street suffix, so it cannot be confirmed as Mercy Gilbert Medical Center's own unit or name."
+ },
+ "030134|1790016244": {
+  "match": true,
+  "reason": "Same address and city; NPPES record is a subpart-1 organization with general acute care hospital taxonomy (282N00000X), and 'Apache Junction Hospital, LLC' is plausibly the legal/operator entity for Banner Goldfield Medical Center."
+ },
+ "032001|1982733655": {
+  "match": false,
+  "reason": "Record A (Ssh - Phoenix, a Select Specialty LTCH on the 3rd floor) is a separate co-located long-term acute care hospital, not the Dignity Health acute hospital in record B, so the rule excludes it."
+ },
+ "032001|1851568687": {
+  "match": false,
+  "reason": "Record A (Ssh - Phoenix) appears to be a co-located long-term acute care hospital at the same address, not the Dignity Health hospital itself, so the rule excludes it."
+ },
+ "040088|1689625568": {
+  "match": true,
+  "reason": "MCSA LLC is the likely operator name for Medical Center of South Arkansas, on the same West Grove Street in El Dorado, with a general acute care hospital taxonomy (282N00000X); the 700 vs 701 address difference is minor."
+ },
+ "040088|1528010287": {
+  "match": true,
+  "reason": "MCSA (Medical Center of South Arkansas) is the operator/legal name of this El Dorado hospital, and the nearby 701 W Grove address with a rehab-agency taxonomy suggests one of its own units rather than a separate facility."
+ },
+ "050077|1154308005": {
+  "match": false,
+  "reason": "Record B is an NPPES entity under the parent operator Scripps Health with taxonomy 273R00000X (psychiatric/hospital-type unit code not clearly this hospital), and no hospital-specific name matches; it is only an address-level match and cannot be confirmed as Scripps Mercy Hospital's own Medicare provider."
+ },
+ "050077|1659359446": {
+  "match": true,
+  "reason": "NPPES record is Scripps Health, the operator of Scripps Mercy Hospital, at the same address (4077 5th Ave) with a general acute care hospital taxonomy (282N00000X), so it matches under the operator-name rule."
+ },
+ "050279|1851787295": {
+  "match": false,
+  "reason": "Record B is an NPPES entity (HDMC Holdings, LLC) with general hospital taxonomy 282N00000X and subpart 0 at a matching street address, but ZIP codes differ (92284 vs 92252) and the name is only an owner/holding entity, not clearly this facility or its units, so it cannot be confirmed as the same Medicare provider."
+ },
+ "050279|1821484262": {
+  "match": false,
+  "reason": "Record B is an NPPES entity (HDMC Holdings, LLC, taxonomy 275N00000X hospital-type organization) at the same street address, but the ZIP codes differ (92284 vs 92252) and the owner entity name is not clearly this hospital's legal or operator name, so it cannot be confirmed as the same Medicare provider."
+ },
+ "050517|1396959516": {
+  "match": false,
+  "reason": "A is the Victor Valley Global Medical Center, a co-located long-term acute care hospital; B is the general acute hospital Victor Valley Community Hospital (taxonomy 282N00000X) at the same address, so the rule excludes it."
+ },
+ "050517|1679879589": {
+  "match": true,
+  "reason": "NPPES record uses the legal entity name VICTOR VALLEY HOSPITAL ACQUISITION, INC. at the same address, with a general acute care hospital taxonomy (282N00000X), consistent with the operator/legal name of this hospital rather than a separate co-located facility."
+ },
+ "050599|1508831363": {
+  "match": false,
+  "reason": "Name matches the legal name, but the NPPES address (4400 V St) differs from the CMS hospital address (2315 Stockton Blvd), so it is not clearly the same Medicare provider."
+ },
+ "050599|1922074897": {
+  "match": true,
+  "reason": "Legal name UNIVERSITY OF CALIFORNIA, DAVIS, MEDICAL CENTER matches the CMS UC Davis Medical Center and the NPPES record carries hospital taxonomy 282N00000X, but the street address differs (4400 V St vs 2315 Stockton Blvd), so this is moderate confidence."
+ },
+ "050599|1831165703": {
+  "match": true,
+  "reason": "NPPES record uses the hospital's legal name (University of California Davis Medical Center), Sacramento city, and a general acute care hospital taxonomy, though its address (4400 V St) differs from the CMS address."
+ },
+ "050660|1700090388": {
+  "match": true,
+  "reason": "Same facility: the CMS 'Usc Norris Cancer Hospital' and NPPES 'USC Kenneth Norris Jr. Cancer Hospital' share the 1441 Eastlake Ave address and the legal/full name; the 90033 vs 90089 ZIP difference is minor."
+ },
+ "050674|1013253681": {
+  "match": false,
+  "reason": "Record B is a physician group (The Permanente Medical Group) at the same address, taxonomy 282N00000X (general acute care hospital), but it is a medical practice entity rather than the hospital itself, so it is excluded by the co-location rule."
+ },
+ "050684|1881781482": {
+  "match": true,
+  "reason": "Same hospital name and street address (McCall Blvd abbreviation), same city area; NPPES record is the hospital's own organizational entry (general acute care taxonomy 282N00000X), differing only in ZIP 92586 vs 92585 and abbreviation, so it is the same facility."
+ },
+ "050765|1174793459": {
+  "match": true,
+  "reason": "CMS 'Kfh - Moreno Valley' is Kaiser Foundation Hospital Moreno Valley; NPPES 'Kaiser Foundation Hospitals' at the same address, same city/ZIP, with a general acute care hospital taxonomy, matches under the operator name."
+ },
+ "060032|1023062098": {
+  "match": true,
+  "reason": "NPPES record is HCA HealthONE LLC, the operator of Rose Medical Center, with a general acute care hospital taxonomy (282N00000X) at the same Denver address, so it is the hospital under its operator name."
+ },
+ "060032|1932153905": {
+  "match": true,
+  "reason": "Record B is NPPES organization HCA-HealthONE LLC, the operator of Rose Medical Center, at the same address (4567 E 9th Ave, Denver CO 80220) with a general acute care hospital taxonomy (282N00000X)."
+ },
+ "060032|1841244811": {
+  "match": true,
+  "reason": "Same address (4567 E 9th Ave, Denver CO 80220) and general hospital taxonomy 282N00000X; NPPES record is the operator entity HCA-HealthONE LLC, which operates Rose Medical Center, so it is the hospital under its operator name."
+ },
+ "060032|1750335725": {
+  "match": true,
+  "reason": "Same address (4567 E 9th Ave, Denver CO 80220) and general hospital taxonomy 282N00000X; NPPES record is the operator entity HCA-HealthONE LLC, which operates Rose Medical Center, so it is the hospital under its operator name."
+ },
+ "060032|1922052992": {
+  "match": true,
+  "reason": "Same address (4567 E 9th Ave, Denver CO 80220) and NPPES record is an HCA HealthONE entity, the operator of Rose Medical Center; taxonomy 282N00000X is General Acute Care Hospital, consistent with the CMS hospital."
+ },
+ "060032|1831143809": {
+  "match": true,
+  "reason": "Same address (4567 East Ninth Avenue, Denver CO 80220) and NPPES record is an HCA HealthONE LLC entity (operator of Rose Medical Center) with a general acute care hospital taxonomy (282N00000X), consistent with the CMS hospital record."
+ },
+ "060032|1740234715": {
+  "match": true,
+  "reason": "Same address (4567 E 9th Ave, Denver CO 80220) and the NPPES record is the operator entity HCA-HealthONE LLC, which operates Rose Medical Center; general acute care taxonomy 282N00000X matches a hospital facility."
+ },
+ "060032|1124073846": {
+  "match": true,
+  "reason": "Same address (4567 E 9th Ave, Denver CO 80220) and NPPES record is the operator HCA-HealthONE LLC, which operates Rose Medical Center; taxonomy 282N00000X is General Acute Care Hospital, consistent with the CMS facility."
+ },
+ "100006|1336045244": {
+  "match": false,
+  "reason": "Record B is Orlando Health Inc.'s general acute care hospital taxonomy at 32 W Gore St, but Record A's CMS address is 52 W Underwood St, and the addresses differ with no shared identifier to confirm the same Medicare facility."
+ },
+ "100050|1922128826": {
+  "match": false,
+  "reason": "Record B is an NPPES emergency physician practice (taxonomy 207PE0004X) at the same address as the CMS hospital, which the rule excludes as a co-located physician practice rather than the hospital itself."
+ },
+ "100087|1245294826": {
+  "match": true,
+  "reason": "Sarasota County Public Hospital District is the legal operator of Sarasota Memorial Hospital at the same address (1700 S Tamiami Trl), and taxonomy 282N00000X indicates a general acute care hospital, so it is the same facility under its legal name."
+ },
+ "100087|1447701495": {
+  "match": true,
+  "reason": "Sarasota County Public Hospital District is the legal operator of Sarasota Memorial Hospital at the same address (1700 S Tamiami Trail), and taxonomy 282N00000X indicates a general acute care hospital, so this is the hospital under its operator name."
+ },
+ "104001|1386713089": {
+  "match": true,
+  "reason": "Same street address (800 E Cypress Dr, Hollywood/Pembroke Pines) and a psychiatric hospital taxonomy match South Florida State Hospital, which GEO Care operates; the CMS name 'Broward' is plausibly its former name."
+ },
+ "104059|1033215504": {
+  "match": true,
+  "reason": "NPPES record B is the operator name (Apalachee Center Inc) for Eastside Psychiatric Hospital at the same address, with a psychiatric hospital taxonomy (283Q00000X), so it is the same facility under its operator name rather than a separate co-located entity."
+ },
+ "110236|1205281318": {
+  "match": true,
+  "reason": "Same street address and hospital taxonomy (282N00000X); Cornerstone Medical Center LLC appears to be the operator or later name of Chi Memorial Hospital - Georgia at 100 Gross Crescent Circle, not a separate co-located facility."
+ },
+ "110237|1700883246": {
+  "match": false,
+  "reason": "Record B is an NPPES entity (DURALL CAPITAL HOLDINGS, LLC) with no clear link to the CMS hospital name NGMC Lumpkin LLC; only the address matches, and taxonomy 282NR1301X indicates a hospital-type organization that may be a separate co-located entity, so the rule excludes it."
+ },
+ "140119|1447406657": {
+  "match": true,
+  "reason": "Exact name match (Rush University Medical Center), hospital taxonomy 282N00000X, same city and ZIP; the street address differs (Congress Pkwy vs W Harrison St), which is consistent with the same campus, so it is likely the same hospital."
+ },
+ "140281|1922551100": {
+  "match": false,
+  "reason": "Record B lists a different address (250 E Superior St Fl 5, not the CMS hospital at 251 E Huron St) and no evidence it is a unit of the hospital, so it is not clearly the same Medicare provider despite the similar name."
+ },
+ "150056|1215341391": {
+  "match": false,
+  "reason": "NPPES record uses taxonomy 282E00000X (long-term care hospital) with a room-level address (RM 3145), which points to a co-located unit or separate facility rather than the CMS acute hospital, despite the matching operator name."
+ },
+ "150161|1316196009": {
+  "match": true,
+  "reason": "Same address in Carmel IN; Clarian North Medical Center is the former name of IU Health North Hospital, and taxonomy 282N00000X (General Acute Care Hospital) with the same street address supports it being the same facility rather than a co-located LTCH or physician practice."
+ },
+ "170103|1003885112": {
+  "match": false,
+  "reason": "Addresses differ (600 vs 500 Medical Center Drive) and record B is a different NPPES entity at a different location, so it is not the same CMS-certified hospital."
+ },
+ "174022|1528040953": {
+  "match": true,
+  "reason": "Both records name Osawatomie State Hospital at the same Osawatomie, KS address (500 State Hospital Dr, with a minor typo in B), and B's taxonomy 283Q00000X is hospital-type, so they describe the same facility."
+ },
+ "180018|1366744617": {
+  "match": true,
+  "reason": "Name matches the hospital's legal name (St. Claire Medical Center, Inc.) with hospital taxonomy 282N00000X in the same city and ZIP; the 222 vs 234 street-number difference is a minor address discrepancy, not a different facility."
+ },
+ "180056|1518218072": {
+  "match": false,
+  "reason": "Record B is an NPPES entry named KEMP with taxonomy 282N00000X (general acute care hospital) at the same address, but it is an individual/unnamed-organization record with no hospital name match to Deaconess Henderson Hospital, so it cannot be confirmed as this facility or its unit and may be a co-located practice or other entity."
+ },
+ "180141|1861554438": {
+  "match": true,
+  "reason": "Same address (530 S Jackson St, Louisville KY 40202) and the entity name UNIVERSITY MEDICAL CENTER, INC is the operator of University Hospital; taxonomy 282N00000X (general acute care hospital) indicates the hospital itself, not a co-located LTCH or physician practice."
+ },
+ "180141|1558771063": {
+  "match": true,
+  "reason": "Same hospital name and street address (530 South Jackson Street, Louisville KY); the ZIP differs only by 40202 vs 40203 and the NPPES record is the hospital's own general acute care taxonomy (282N00000X) with subpart 0 indicating the organizational entity."
+ },
+ "182002|1720162399": {
+  "match": true,
+  "reason": "Same name (Continuing Care Hospital, Inc. is the legal entity name), same street address and city/state/ZIP; taxonomy 282E00000X is a special hospital code, consistent with the facility rather than a co-located practice."
+ },
+ "183026|1417071663": {
+  "match": true,
+  "reason": "Same hospital name (Cardinal Hill Rehabilitation Hospital), same street address at 2050 Versailles Road, and a rehabilitation hospital taxonomy; only the ZIP differs (40504 vs 40511), which is a minor discrepancy."
+ },
+ "190317|1285253252": {
+  "match": true,
+  "reason": "CMS 'Olh-Shreveport-St. Mary Medical Ctr' is the Ochsner LSU Health operator name for the same St. Mary Medical Center, and NPPES lists a general acute care hospital taxonomy, though the street addresses differ (1 Saint Mary Pl vs 911 Margaret Pl)."
+ },
+ "192015|1033196456": {
+  "match": false,
+  "reason": "Record A is Ochsner Extended Care Hospital, a long-term acute care hospital co-located at 2614 Jefferson Hwy, while B is an NPPES clinic/foundation entity (taxonomy 275N00000X, a medical facility type) at the same address, so per the rule it is not the same Medicare provider."
+ },
+ "192030|1013547504": {
+  "match": false,
+  "reason": "Record B is Beacon Behavioral Hospital New Orleans LLC (a psychiatric hospital, different entity and taxonomy), at a different suite (200 vs 100), so it is a co-located separate facility rather than Bliant Specialty Hospital under its own or former name."
+ },
+ "194025|1215033535": {
+  "match": false,
+  "reason": "Same name and city, but the NPPES address (6250 Esler Field Rd) differs from the CMS address (242 W Shamrock Ave), and nothing shows it is a unit of this hospital rather than a different entity."
+ },
+ "194044|1619437522": {
+  "match": false,
+  "reason": "Record B is an individual APRN (NPPES, nursing taxonomy 283Q00000X, subpart 0) at the same address, not the hospital facility itself; it is a co-located provider, not the hospital or its units."
+ },
+ "210004|1396829701": {
+  "match": false,
+  "reason": "Record B is a physician practice (Capital Internal Medicine, general acute care taxonomy 282N00000X, not a facility) at the same address as Holy Cross Hospital, which the rule explicitly excludes."
+ },
+ "210017|1598417412": {
+  "match": true,
+  "reason": "Same address (251 N 4th St, Oakland MD); NPPES entity GRMC, Inc. is the operator of Garrett County Memorial Hospital (GRMC expands to Garrett Regional Medical Center), and taxonomy 282N00000X is General Acute Care Hospital, so it is this hospital under its operator name."
+ },
+ "210048|1619903622": {
+  "match": false,
+  "reason": "Record B is an NPPES entity named John Hopkins Emergency Medical System (taxonomy 282N00000X, general acute care hospital code, not a clearly identified facility) at the same address, but it does not name Howard County facility or its legal/former name, and the address match alone is insufficient to establish the same Medicare provider."
+ },
+ "210048|1518060599": {
+  "match": false,
+  "reason": "Record B is an NPPES entry for Johns Hopkins Emergency Medical Services (a EMS/ambulance-type taxonomy 282N00000X, a General Acute Care Hospital taxonomy, with no subpart), not the hospital facility itself; the same address alone does not establish the same Medicare provider."
+ },
+ "210058|1841337805": {
+  "match": true,
+  "reason": "Same hospital name (James Lawrence Kernan Hospital, legal entity Inc.) in Baltimore MD 21207; address differs in form (Kernan Drive vs North Forest Park Ave, the hospital's campus street) but taxonomy 282N00000X is General Acute Care Hospital and the name matches the hospital itself."
+ },
+ "214003|1316918048": {
+  "match": false,
+  "reason": "Street numbers differ (13121 vs 13215 Brook Lane) and the NPPES record's operator-group name alone doesn't establish it is this hospital's own record rather than another Brook Lane entity."
+ },
+ "214003|1558333138": {
+  "match": false,
+  "reason": "Different street numbers (13121 vs 13215) and B is an NPPES organization record with a different name (Brook Lane Health Services) and taxonomy 283Q00000X (hospital, psychiatric-unrelated), so it is not clearly the same Medicare hospital provider as A's Brook Lane Psychiatric Center."
+ },
+ "214003|1861643595": {
+  "match": false,
+  "reason": "Address numbers differ (13121 vs 13218) and B is an NPPES record for Brook Lane Health Services/Stonebridge, a different operator entity (taxonomy 283Q00000X is hospital-type), so it does not clearly represent the same Medicare hospital facility."
+ },
+ "214003|1144703109": {
+  "match": false,
+  "reason": "Address differs (13121 vs 13215 Brook Lane) and record B is an NPPES organization entry with a different name, not clearly this hospital under a legal, former, or operator name; insufficient evidence it is the same Medicare provider."
+ },
+ "214003|1962985929": {
+  "match": false,
+  "reason": "Street numbers differ (13121 vs 13215 Brook Lane), and the NPPES record is a non-facility-subpart organization (subpart 0), so it doesn't clearly match this hospital's address or operator record."
+ },
+ "220073|1467289645": {
+  "match": true,
+  "reason": "NPPES record at the same street address and ZIP appears to be the legal/operator entity (Lifespan of Massachusetts - Taunton) for Morton Hospital, and its taxonomy suggests a unit of that hospital rather than a separate co-located facility."
+ },
+ "220086|1467686378": {
+  "match": false,
+  "reason": "Record B is 'Windows of Hope' (NPPES, taxonomy 282N00000X general acute care hospital, sole-proprietor-style individual entry) at the same address, which is not the Beth Israel Deaconess Medical Center name, legal/former name, or its own unit; it appears to be a co-located separate entity."
+ },
+ "220110|1912335423": {
+  "match": false,
+  "reason": "Record B is an NPPES entry at 45 Francis St, while CMS record A is at 75 Francis Street; the addresses differ and B's taxonomy 282N00000X (general acute care hospital) with subpart 0 is an organizational NPI for the hospital, but the street address mismatch means these cannot be confirmed as the same Medicare provider."
+ },
+ "220110|1083038657": {
+  "match": false,
+  "reason": "Same hospital name, but NPPES address 221 Longwood Ave differs from CMS address 75 Francis Street, and nothing links it to this Medicare provider's own units."
+ },
+ "230038|1831725399": {
+  "match": false,
+  "reason": "Names align, but the NPPES record lists 301 Michigan St NE while CMS lists 100 Michigan Street NE, so the addresses differ and the records don't clearly identify the same Medicare provider."
+ },
+ "230038|1336074731": {
+  "match": false,
+  "reason": "Addresses differ (100 Michigan St NE in CMS vs 1300 Michigan St NE in NPPES), so the NPPES hospital record is not clearly this same Medicare provider location."
+ },
+ "230059|1609800614": {
+  "match": false,
+  "reason": "Record B is Great Lakes Specialty Hospital - Oak LLC, a separate long-term acute care hospital co-located at the same address, not Saint Marys Health Care under its legal, former, or operator name."
+ },
+ "230059|1043598923": {
+  "match": false,
+  "reason": "Record B is Grand Rapids Medical Education Partners (NPPES, taxonomy 282N00000X general acute care hospital, subpart 0), an organization name distinct from Saint Marys Health Care; it does not match the hospital's legal, former, or operator name, so it is not the same Medicare provider."
+ },
+ "230100|1144115288": {
+  "match": true,
+  "reason": "Same 200 Hemlock address and city; MyMichigan Medical Center Tawas is the current operator name of Tawas St. Joseph Hospital, and taxonomy 282NC0060X is a general acute care hospital."
+ },
+ "230104|1023326667": {
+  "match": true,
+  "reason": "Same address (3990 John R St, Detroit) and a general acute care hospital taxonomy; the NPPES 'DMC' name is the operator name of Harper-Hutzel Hospital, which sits at this address."
+ },
+ "230104|1043551146": {
+  "match": true,
+  "reason": "Same address (3990 John R, Detroit) and a general acute care hospital taxonomy under the Detroit Medical Center operator name, which fits Harper-Hutzel Hospital as a DMC facility; not a co-located LTACH or physician practice."
+ },
+ "230110|1265367502": {
+  "match": true,
+  "reason": "Same street address (One Atkinson Drive/1 Atkinson Dr) and city, and NPPES record is a general acute care hospital (282N00000X) under the Spectrum Health Hospital operator name, consistent with Spectrum Health Ludington."
+ },
+ "233300|1518216787": {
+  "match": true,
+  "reason": "Same name (Children's Hospital of Michigan), same street address 3901 Beaubien, Detroit MI 48201; NPPES record is the hospital's own organizational entity (general acute care hospital taxonomy 282NC2000X), not a co-located separate facility."
+ },
+ "240002|1457393035": {
+  "match": true,
+  "reason": "Same name (St. Marys Medical Center), same Duluth MN 55805 ZIP, and a hospital taxonomy (282N00000X) with subpart 1 facility indicator; the street address differs (407 E 3rd vs 402 E 2nd) but is consistent with the same campus."
+ },
+ "250082|1306921887": {
+  "match": true,
+  "reason": "NPPES record uses the operator name DELTA HEALTH SYSTEM at the same street address (1400 East Union St, Greenville MS) with a hospital taxonomy, consistent with this hospital under its operator name; the ZIP difference (38703 vs 38704) is minor."
+ },
+ "250136|1285681841": {
+  "match": true,
+  "reason": "Same street address (1026 N Flowood Dr, 39232) and a hospital taxonomy (282NW0100X); ROH LLC is plausibly the legal/operator entity for Merit Health Womans Hospital, though the name is not verified."
+ },
+ "260001|1811084635": {
+  "match": false,
+  "reason": "Different addresses and names: A is Mercy Hospital Joplin at 100 Mercy Way, while B is St Johns Regional Medical Center at 2931 McClelland Blvd, so they are not the same facility."
+ },
+ "260032|1730206665": {
+  "match": true,
+  "reason": "Same hospital name (Barnes-Jewish Hospital), same street address and ZIP in Saint Louis MO; taxonomy 282N00000X is General Acute Care Hospital, so NPPES record is the facility itself."
+ },
+ "260032|1073729596": {
+  "match": true,
+  "reason": "Same hospital name (Barnes-Jewish Hospital, abbreviated spelling variant), same address at 1 Barnes-Jewish Hospital Plaza, St. Louis MO 63110; taxonomy 282NC0060X is general acute care hospital."
+ },
+ "260032|1649487778": {
+  "match": true,
+  "reason": "Same hospital name (Barnes-Jewish Hospital), same address at 1 Barnes-Jewish Hospital Plaza, and same city/ZIP; taxonomy 282N00000X is General Acute Care Hospital, consistent with the facility."
+ },
+ "260032|1174907257": {
+  "match": true,
+  "reason": "Same hospital name (Barnes-Jewish Hospital), same street address and ZIP in Saint Louis MO; taxonomy 282N00000X is General Acute Care Hospital, consistent with the facility."
+ },
+ "260102|1376686600": {
+  "match": true,
+  "reason": "Truman Medical Center, Inc. is the operator name of University Health Lakewood Medical Center (formerly Truman Medical Center Lakewood) at the same address, and taxonomy 282N00000X is a general acute care hospital."
+ },
+ "260119|1962446054": {
+  "match": false,
+  "reason": "Different street addresses (3100 Oak Grove Road vs 2620 N Westwood Blvd) and NPPES record is a taxonomy 273Y00000X (rehabilitation/specialty facility type) with subpart 1, not clearly the same hospital provider; cannot confirm same Medicare provider."
+ },
+ "264004|1104878792": {
+  "match": true,
+  "reason": "Same address (600 E 5th St, Fulton MO), taxonomy 283Q00000X is hospital, and NPPES record is the state-operated Fulton State Hospital under its operator (State of Missouri), so it is the same facility under its operator name."
+ },
+ "310014|1538300579": {
+  "match": true,
+  "reason": "Same hospital name (Cooper University Hospital) at the same address in Camden NJ (One Cooper Plaza = 1 Cooper Plz); NPPES taxonomy 282NC2000X is a general acute care hospital code, consistent with the CMS facility."
+ },
+ "310014|1215165832": {
+  "match": true,
+  "reason": "Both records name Cooper University Hospital at One Cooper Plaza (1 Cooper Plz), Camden NJ 08103, and B's taxonomy 282N00000X (General Acute Care Hospital) matches a hospital facility."
+ },
+ "310014|1881931707": {
+  "match": false,
+  "reason": "NPPES record uses taxonomy 282E00000X (long-term care hospital) at 3 Cooper Plaza, not the acute-care hospital's One Cooper Plaza address, so it appears to be a different co-located facility or unit rather than the same Medicare hospital."
+ },
+ "310014|1053654749": {
+  "match": true,
+  "reason": "Same hospital name (Cooper University Hospital), Camden NJ 08103, and a hospital taxonomy (282NC0060X); the 3 Cooper Plaza address is likely a campus building of the same facility, not a different hospital."
+ },
+ "310014|1093187163": {
+  "match": false,
+  "reason": "NPPES record has physician taxonomy 207V00000X (OB/GYN), not the hospital's facility taxonomy, and its address (3 Cooper Plaza) differs from the CMS address (One Cooper Plaza), so it reads as a physician practice rather than the hospital itself."
+ },
+ "310034|1699851758": {
+  "match": false,
+  "reason": "Record B is an NPPES entity with a general acute care taxonomy (282N00000X) and no hospital subpart flag, described as a family health center at the same address, so it is a separate facility or practice rather than the hospital itself."
+ },
+ "310034|1326481078": {
+  "match": true,
+  "reason": "Same address (1 Riverview Plaza, Red Bank NJ 07701) and a general acute care hospital taxonomy; Meridian Health is the operator name of Riverview Medical Center."
+ },
+ "310074|1730620428": {
+  "match": true,
+  "reason": "NPPES record uses the hospital's operator name (RWJ Barnabas) with hospital taxonomy 282N00000X at the same Grand Street campus; the 395 vs 355 address difference and 3rd-floor suffix suggest a unit of the same hospital rather than a separate facility, but this is not fully certain."
+ },
+ "312024|1386646131": {
+  "match": false,
+  "reason": "Record A is the co-located Columbus Hospital LTACH (long-term acute care hospital), while B is the general acute care Columbus Hospital, which the rule treats as a different provider at the same address."
+ },
+ "320062|1114960093": {
+  "match": true,
+  "reason": "Record B is the NPPES entry for Crownpoint Hospital (DHHS PHS/NAIHS operator name) at the same Crownpoint NM 87313 location on Route 371, with general acute hospital taxonomy 282N00000X, matching the CMS Crownpoint Indian Hospital."
+ },
+ "330014|1427005065": {
+  "match": false,
+  "reason": "Record B is a psychiatric services physician practice (PC) at the same address, which is a co-located entity rather than the hospital itself or its own unit under a legal, former, or operator name."
+ },
+ "330059|1649628074": {
+  "match": true,
+  "reason": "Same name (Montefiore Medical Center), same street address (111/110 East 210th Street, minor formatting difference) and ZIP 10467; taxonomy 282N00000X is General Acute Care Hospital, consistent with the CMS hospital record."
+ },
+ "330169|1992916878": {
+  "match": true,
+  "reason": "Record A (CMS) is Mount Sinai Health System-Beth Israel at First Ave and 16th St, New York NY 10003, and record B is Beth Israel Medical Center at the same address with a general acute care hospital taxonomy (282N00000X), so B is the hospital under its former name."
+ },
+ "330169|1790947091": {
+  "match": true,
+  "reason": "Record B's name, Beth Israel Medical Center, is the former name of Mount Sinai Health System-Beth Israel. Both are at the same 16th Street hospital address in NY 10003, and B's taxonomy 282N00000X is general acute care hospital."
+ },
+ "330169|1851666408": {
+  "match": true,
+  "reason": "Beth Israel Medical Center at 281 1st Ave is the former/legal name of Mount Sinai Health System-Beth Israel, and the hospital taxonomy 282N00000X with subpart 1 fits the same facility."
+ },
+ "330195|1174530349": {
+  "match": true,
+  "reason": "Exact legal name, hospital taxonomy 282NC2000X, same street and ZIP; the house number differs (26901 vs 270-05), likely a data-entry variance, so this is probably the hospital's own NPI record."
+ },
+ "330195|1750459046": {
+  "match": true,
+  "reason": "Same hospital name, same street address (270-05 76th Ave) and city/ZIP; NPPES record is the general acute care hospital taxonomy (282N00000X) under its own name, so it describes the same facility."
+ },
+ "330195|1164616959": {
+  "match": false,
+  "reason": "NPPES record is the health system's organization entity (taxonomy 275N00000X, subpart 0), not the Long Island Jewish Medical Center hospital facility; the shared address alone does not establish the same Medicare provider."
+ },
+ "330195|1750542940": {
+  "match": false,
+  "reason": "Name matches the hospital's legal name, but the NPPES address (26901 76th Ave) differs from the CMS address (270-05 76th Ave) and the taxonomy and address point to a possibly different entity, so the match is not confirmed."
+ },
+ "330195|1164663365": {
+  "match": true,
+  "reason": "Same hospital name, same address (270-05 76th Ave, New Hyde Park NY 11040), and general acute care hospital taxonomy 282N00000X matches the CMS facility."
+ },
+ "330195|1992013676": {
+  "match": true,
+  "reason": "Same address (270-05 76th Avenue, New Hyde Park NY) and B's name North Shore Long Island Jewish Medical Center is the current/operator name of the hospital formerly known as Long Island Jewish Medical Center; taxonomy 282N00000X (general acute hospital) and subpart 1 indicate the facility itself, not a co-located LTACH or physician practice."
+ },
+ "330195|1962711002": {
+  "match": false,
+  "reason": "Record B is an NPPES entry for the health system (taxonomy 282N00000X, general acute care hospital type) with no organization name matching Long Island Jewish Medical Center, so it is not clearly this hospital's own record; it shares only the address with the CMS facility and could be a co-located entity."
+ },
+ "330195|1275958050": {
+  "match": false,
+  "reason": "Record B is the health system's NPPES organizational entity (taxonomy 282N00000X, General Acute Care Hospital) under North Shore-LIJ name, not clearly the Long Island Jewish Medical Center Medicare provider; same campus address alone does not establish identity and the rule excludes co-located entities."
+ },
+ "330246|1164481529": {
+  "match": true,
+  "reason": "Same name (St Charles Hospital, operator entity St Charles Hospital Corp) at the same street address in Port Jefferson NY; NPPES record is the hospital's organizational entity (taxonomy 282N00000X General Acute Care Hospital), and the ZIP difference (11777 vs 11714) is a minor discrepancy, not a different facility."
+ },
+ "330246|1225097652": {
+  "match": true,
+  "reason": "NPPES organization ST CHARLES HOSPITAL CORP (operator name) at the same street address 200 Belle Terre Road, Port Jefferson NY, with only a ZIP variance (11714 vs 11777); no evidence of a separate co-located entity."
+ },
+ "330277|1346241973": {
+  "match": true,
+  "reason": "Both records are Corning Hospital at One Guthrie Drive, Corning NY 14830 (taxonomy 282N00000X is General Acute Care Hospital), so they describe the same facility."
+ },
+ "330277|1972655629": {
+  "match": true,
+  "reason": "Both records name Corning Hospital in Corning NY 14830 with a general acute care hospital taxonomy (282N00000X); the street addresses differ, so this relies on the name and city matching, which is a moderate-confidence call."
+ },
+ "330401|1053497248": {
+  "match": true,
+  "reason": "Same hospital name (St. Catherine of Siena Medical Center) at the same address in Smithtown NY; taxonomy 282N00000X is General Acute Care Hospital, so B is the facility itself rather than a co-located LTCH or physician practice."
+ },
+ "330401|1245318609": {
+  "match": true,
+  "reason": "Same hospital name (St. Catherine of Siena Medical Center) at the same address in Smithtown NY; NPPES record uses hospital taxonomy 282N00000X and is the facility itself, not a co-located entity."
+ },
+ "330401|1982776753": {
+  "match": false,
+  "reason": "Record B is a hospitalists group practice (taxonomy 282N00000X general acute hospital, subpart 0 = not a facility subpart) at the same address, a physician practice rather than the hospital facility itself."
+ },
+ "330401|1376617332": {
+  "match": true,
+  "reason": "Record B is an emergency medicine unit of St. Catherine of Siena at the same address (50 Route 25A, Smithtown NY), matching the hospital's own unit rule; it is not a separate co-located facility."
+ },
+ "330405|1235142472": {
+  "match": false,
+  "reason": "NPPES record is a State of New York Comptroller's Office entity at the same address, not the Helen Hayes Hospital's legal, former, or operator name or one of its units, so it is a co-located different entity."
+ },
+ "332008|1992713564": {
+  "match": true,
+  "reason": "Record B is NYC Health and Hospitals Corporation, the operator of Henry J. Carter at the same address, which the rule counts as a match; the LTCH taxonomy is a caveat, not a separate co-located facility."
+ },
+ "334013|1467817221": {
+  "match": true,
+  "reason": "Pilgrim P.C. is Pilgrim Psychiatric Center, the state psychiatric hospital at 998 Crooked Hill Road operated by NYS OMH, and the NPPES record has the same address, a psychiatric hospital taxonomy, and the operator name."
+ },
+ "334061|1609312875": {
+  "match": false,
+  "reason": "Record A is a physician practice (Mid-Hudson P.C.) while record B is a forensic psychiatric center at the same address; per the rule, a co-located physician practice or other facility is not a match."
+ },
+ "340061|1932208576": {
+  "match": true,
+  "reason": "Same hospital at 101 Manning Dr, Chapel Hill; NPPES record is the legal/operator name of UNC Hospitals (general acute care hospital taxonomy 282N00000X), not a co-located LTCH or physician practice."
+ },
+ "340098|1376985135": {
+  "match": false,
+  "reason": "Different addresses (10628 Park Road, Pineville vs. 2001 Vail Ave, Charlotte) and B is Carolinas Medical Center, a separate hospital, not Atrium Health Pineville."
+ },
+ "340098|1871998575": {
+  "match": false,
+  "reason": "Different addresses and cities: A is Atrium Health Pineville at 10628 Park Road, Charlotte 28210, while B is Carolinas Medical Center at 2001 Vail Ave, Charlotte 28207, a separate facility."
+ },
+ "340184|1184948762": {
+  "match": true,
+  "reason": "Same hospital name, same town and street, and hospital taxonomy 282N00000X; the house number differs (262 vs 75), which is likely an NPPES address variant, so the match is moderately confident."
+ },
+ "344032|1841884780": {
+  "match": false,
+  "reason": "Different addresses (10901 World Trade Blvd vs 1350 Sunday Dr Ste 109) and B is an NPPES organizational record with a different taxonomy/subpart, not the CMS hospital's own record; no evidence it is the same provider."
+ },
+ "350019|1740475847": {
+  "match": false,
+  "reason": "NPPES record shows the parent Altru Health System at 1300 S Columbia Rd with a non-hospital-type taxonomy (273Y00000X), while the CMS hospital is at 1200 South Columbia Road; the address and taxonomy mismatch suggests a different entity or unit, not clearly the same hospital."
+ },
+ "360085|1215240734": {
+  "match": true,
+  "reason": "Same address (410 W 10th Ave, Columbus OH 43210); NPPES record is the hospital under its operator/alias name 'Ohio State Medical Center' with a hospital taxonomy, consistent with The Ohio State University Hospital."
+ },
+ "360125|1760569784": {
+  "match": false,
+  "reason": "Same hospital name and city, but addresses differ (2420 vs 2422 Lake Ave) and record B is an NPPES entry with a general acute care hospital taxonomy that is not confirmed as this Medicare provider; insufficient evidence to confirm the same facility."
+ },
+ "360144|1265610562": {
+  "match": false,
+  "reason": "Record B is a radiology practice (taxonomy 282N00000X, general acute care hospital taxonomy absent) at a nearby address (Harvard Ave vs Harvard Road), not South Pointe Hospital itself or its units; it is a separate physician/practice entity."
+ },
+ "364053|1538553698": {
+  "match": true,
+  "reason": "NPPES org name HIGHLAND SPRINGS, LLC matches CMS hospital name Highland Springs at the same address (4199 Mill Pond Dr, Highland Hills OH), consistent with its legal entity name; no evidence it is a separate co-located facility."
+ },
+ "370037|1801069299": {
+  "match": false,
+  "reason": "Record B is an individual/practice entity (Janet M. Spradlin, PH.D. PC, taxonomy 282N00000X general acute care hospital taxonomy is not used by a psychologist practice; it is a separate physician/professional practice at the same address), not the hospital St Anthony itself."
+ },
+ "370078|1154598605": {
+  "match": true,
+  "reason": "Record A (Osu Medical Center) is the same hospital as B's legal/operator name Oklahoma State University Medical Center at the same street address (744 W 9th St) and ZIP, with B's taxonomy 282N00000X (General Acute Care Hospital) matching."
+ },
+ "370078|1578704938": {
+  "match": false,
+  "reason": "Record B is an NPPES organization entry for Oklahoma State University Medical Trust (the operator/parent), at the same address, but the rule only matches this hospital under its legal, former, or operator name or its own units; without a clear link this is an unverified same-address entity, so no match."
+ },
+ "374021|1851327464": {
+  "match": false,
+  "reason": "Different street addresses (1619 East 13th Street vs 1620 E 12th St) and B is an NPPES organization record with a different taxonomy (283Q00000X, hospital-type) that does not clearly tie to this hospital's CMS address; insufficient evidence of the same Medicare provider."
+ },
+ "374021|1437370772": {
+  "match": false,
+  "reason": "Different addresses (1619 East 13th Street vs 1239 S Trenton Ave) and B is an NPPES organization record with taxonomy 283Q00000X (hospital) but not clearly the same facility; names are only partially similar, so not the same Medicare provider."
+ },
+ "374021|1134750649": {
+  "match": false,
+  "reason": "Addresses differ (1619 East 13th Street vs 1239 S Trenton Ave) and record B is an NPPES entity with a pharmacy/hospital-type taxonomy at a different location, so it is not the same Medicare hospital facility."
+ },
+ "374025|1770932410": {
+  "match": true,
+  "reason": "NPPES record OAKWOOD SPRINGS, LLC at the identical address with a hospital taxonomy (283Q00000X) is the operator/legal entity of the CMS hospital Oakwood Springs, not a separate co-located facility."
+ },
+ "390035|1669405072": {
+  "match": true,
+  "reason": "Quakertown Community Hospital appears to be the former name of St. Luke's Quakertown Hospital, same city and ZIP, but the NPPES address (3000 St Luke's Dr) differs from the CMS address, so this is uncertain."
+ },
+ "390079|1356341523": {
+  "match": true,
+  "reason": "Same name (Robert Packer Hospital), same address (1 Guthrie Square, Sayre PA 18840), and NPPES record is a hospital taxonomy (273R00000X) with subpart 1, consistent with the CMS hospital facility."
+ },
+ "390111|1003175514": {
+  "match": false,
+  "reason": "Different addresses (3400 Spruce Street vs 3400 Civic Center Blvd) and B is a psychiatric/other-type entity record with no matching hospital identity; not the same Medicare provider."
+ },
+ "390137|1255585303": {
+  "match": true,
+  "reason": "Record B's operator name, Wilkes Barre Hospital Company LLC, matches the operator of Wilkes-Barre General Hospital; the street address matches, the taxonomy is general acute care hospital, and the ZIP difference (18702 vs 18764) is minor."
+ },
+ "392025|1750798740": {
+  "match": true,
+  "reason": "NPPES legal name POST ACUTE MEDICAL AT NANTICOKE LLC matches the CMS hospital name at the same street address (zip differs), and the LTCH taxonomy fits the facility itself rather than a separate co-located entity."
+ },
+ "420004|1407053853": {
+  "match": true,
+  "reason": "Same legal name (Medical University of South Carolina), same street and ZIP with a minor house-number variance (167 vs 169 Ashley Ave), and a general acute care hospital taxonomy (282N00000X), so it likely is the hospital's own NPPES record."
+ },
+ "420018|1154373843": {
+  "match": true,
+  "reason": "Same address and hospital taxonomy (282N00000X); PRISMA HEALTH-MIDLANDS is a former/operator name of Prisma Health Richland Hospital, not a separate co-located facility."
+ },
+ "420018|1154432458": {
+  "match": true,
+  "reason": "Same address (Five Richland Medical Park, Columbia SC 29203); NPPES record is Prisma Health-Midlands, the operator name of Prisma Health Richland Hospital, with general acute care hospital taxonomy 282N00000X and subpart 1 indicating facility-level billing."
+ },
+ "420038|1568918662": {
+  "match": true,
+  "reason": "Same street address and taxonomy 282N00000X (general acute care hospital); NPPES name Prisma Health-Upstate is the operator of Prisma Health Laurens County Hospital."
+ },
+ "420068|1457309247": {
+  "match": true,
+  "reason": "Same address (3000 St Matthews Rd, Orangeburg SC 29118) and B's name is the hospital's full legal/operator name (The Regional Medical Center of Orangeburg and Calhoun Counties); taxonomy 282N00000X is General Acute Care Hospital, so it is this hospital rather than a co-located LTCH or practice."
+ },
+ "430090|1245516780": {
+  "match": false,
+  "reason": "Record B is at 716 E 19th St with clinic taxonomy 261QP2300X (outpatient clinic) and different address from A's 910 East 20th Street, so it is a separate entity, not the hospital's own unit or former name."
+ },
+ "440007|1104995281": {
+  "match": false,
+  "reason": "Record B is a NPPES entity 'Coffee Medical Group LLC' with a general acute care taxonomy (282N00000X) and no subpart indication of a hospital, so it is a separate physician/medical group at the same address rather than the hospital Unity Medical Center itself."
+ },
+ "440065|1669567897": {
+  "match": true,
+  "reason": "Same address (100 North Crest Drive, Springfield TN) and name variant NORTHCREST MEDICAL CENTER matches Tristar Northcrest Medical Center; taxonomy 282N00000X is a general acute care hospital code, and no indication of a separate co-located LTCH or practice."
+ },
+ "440125|1518945799": {
+  "match": true,
+  "reason": "Same hospital name and street address (1901 Clinch Ave/West Clinch Ave, Knoxville TN); ZIP difference is minor and B's taxonomy and subpart indicate the facility's own organizational record, not a co-located LTCH or practice."
+ },
+ "450034|1194813758": {
+  "match": false,
+  "reason": "Record B is taxonomy 282E00000X (long-term care hospital) under Dubuis Health System at the same address, a co-located LTACH rather than the Christus general acute care hospital in Record A."
+ },
+ "450034|1932334125": {
+  "match": false,
+  "reason": "Record B is a Long Term Care Hospital (taxonomy 282E00000X) named Christus Continuing Care at the same address, so it is a co-located LTACH rather than Christus Hospital itself."
+ },
+ "450034|1922522606": {
+  "match": false,
+  "reason": "Record B is an NPPES entity (LHCG CXXI, LLC, taxonomy 282E00000X, a long-term acute care hospital type) at the same address, which the rule treats as a co-located LTCH rather than the Christus Hospital itself."
+ },
+ "450132|1295121457": {
+  "match": false,
+  "reason": "Record B is ContinueCare Hospital at Odessa, a separate long-term acute care hospital at the same address (floor 4), not the Medical Center Health System hospital under its legal, former, or operator name."
+ },
+ "450395|1689650616": {
+  "match": true,
+  "reason": "Same street address (1717 Hwy 59 Loop/Bypass, Livingston TX 77351) and a hospital taxonomy; Memorial Hospital of Polk County appears to be the facility's former name, not a separate co-located hospital."
+ },
+ "450571|1881670339": {
+  "match": false,
+  "reason": "Record B is NPPES taxonomy 282E00000X (Long Term Care Hospital) under SCCI Hospitals of America, which reads as a separate co-located LTACH rather than the acute Shannon Medical Center itself."
+ },
+ "450651|1205880275": {
+  "match": false,
+  "reason": "Record A is Medical City Plano at 3901 West 15th Street, while record B is Columbia Medical Center of Plano Subsidiary LP at a different address (1620 Coit Rd), with a rehab/LTAC-style taxonomy, so they are not the same facility."
+ },
+ "450670|1295795573": {
+  "match": true,
+  "reason": "Tomball Hospital Authority is the legal owner of this hospital, which operates as HCA Houston Healthcare Tomball, at the same address (Holderrieth Street/Blvd, Tomball TX 77375)."
+ },
+ "450670|1558321836": {
+  "match": false,
+  "reason": "Record B is the Tomball Hospital Authority (NPPES organization, hospital taxonomy, subpart 1) at 605 Holderrieth Blvd, while A is HCA Houston Healthcare Tomball, a CMS-certified hospital; the operator/legal-name relationship is not established by the given fields and the street suffix differs (Street vs Blvd), so this cannot be confirmed as the same Medicare provider."
+ },
+ "450670|1194026534": {
+  "match": true,
+  "reason": "Tomball Regional Hospital is the former name of HCA Houston Healthcare Tomball, and both records share the same address (605 Holderrieth) and ZIP, with a general acute care hospital taxonomy."
+ },
+ "450670|1417246059": {
+  "match": true,
+  "reason": "NPPES entity Tomball Hospital Authority is the legal owner of the Tomball hospital, at the same address (Holderrieth Blvd/Street variant), with a psychiatric-unit taxonomy consistent with a unit of this hospital."
+ },
+ "450670|1306126974": {
+  "match": true,
+  "reason": "NPPES record is the legal operator entity (Tomball Texas Hospital Company LLC) for the HCA Houston Healthcare Tomball hospital, with general acute care taxonomy 282N00000X and the same street address and ZIP."
+ },
+ "450670|1619259751": {
+  "match": true,
+  "reason": "NPPES record is the legal operating entity (Tomball Texas Hospital Company LLC) for the HCA Houston Healthcare Tomball hospital at the same Tomball address, with only a street-suffix difference; it is not a separate LTCH or practice."
+ },
+ "450670|1962784884": {
+  "match": true,
+  "reason": "Tomball Texas Hospital Company LLC is the legal operator of HCA Houston Healthcare Tomball at the same street address (Holderrieth), and the rehabilitation-unit taxonomy indicates one of the hospital's own units."
+ },
+ "450871|1295173664": {
+  "match": true,
+  "reason": "NPPES record is a hospital-taxonomy (282N00000X) organization at the same street address (Bee Cave Rd/Bee Caves Road, same ZIP), under Arise Healthcare System, the operator name for Arise Austin Medical Center."
+ },
+ "452086|1811580434": {
+  "match": false,
+  "reason": "Record A is a CMS hospital named Pam Squared At Corpus Christi, and Record B is a separate NPPES psychiatric hospital (Oceans Behavioral Hospital) at the same building on a different floor, so it is a co-located different hospital, not the same provider."
+ },
+ "453072|1174021695": {
+  "match": true,
+  "reason": "Both records share the same address (701 Olympic Plaza Circle, Tyler TX 75701), and B's NPPES taxonomy 283X00000X (Specialty Hospital) with subpart 1 indicates a hospital organization, consistent with A's UT Health East Texas Rehab Hospital operated by Rehabilitation Hospital, LLC."
+ },
+ "453301|1710233481": {
+  "match": false,
+  "reason": "Names match and taxonomy is general acute care hospital, but the street number differs (3533 vs 3333 S Alameda), so this is likely a different location or unverified, not the same CMS provider."
+ },
+ "453302|1003912197": {
+  "match": false,
+  "reason": "Record B is at a different street address (1935 Motor St vs 1935 Medical District Drive), and its taxonomy/subpart details point to a separate facility or unit rather than the hospital itself."
+ },
+ "460052|1801903240": {
+  "match": false,
+  "reason": "Different addresses (750 W 800 N vs 331 N 400 W) and B is an IHC Health Services entity record with no clear link to Timpanogos Regional Hospital's CMS provider, so not shown to be the same facility."
+ },
+ "463301|1710162755": {
+  "match": true,
+  "reason": "Primary Children's Medical Center at 100 N Medical Dr (now Mario Capecchi Dr) in Salt Lake City is the legal/operator name of Primary Childrens Hospital at the same address and zip, with a hospital taxonomy."
+ },
+ "463301|1154508653": {
+  "match": false,
+  "reason": "Record A is Primary Children's Hospital at 100 N Mario Capecchi Drive; record B is an Intermountain Healthcare entity at 100 N Medical Dr with general acute care taxonomy and no subpart, so it is not clearly the same Medicare provider and may be a different facility or operator at the campus."
+ },
+ "463301|1225295520": {
+  "match": true,
+  "reason": "Primary Children's Medical Center (NPPES, hospital taxonomy 282NC2000X) at 100 N Medical Dr is the same hospital as Primary Children's Hospital at 100 North Mario Capecchi Drive, Salt Lake City 84113; the street names are variants of one address and the facility name is the hospital's operating name."
+ },
+ "474001|1861749913": {
+  "match": true,
+  "reason": "Record B is the same Brattleboro Retreat at 1 Anna Marsh Lane, Brattleboro VT 05301, matching record A's name and address; taxonomy 283Q00000X is a hospital code, so it is the facility itself rather than a co-located separate entity."
+ },
+ "490120|1770765612": {
+  "match": false,
+  "reason": "Record B is an NPPES entity 'DEMC, INC' with a general acute/nursing-type taxonomy (282NW0100X is General Acute Care Hospital; ambiguous operator record) at the same address, but no explicit link to Chesapeake General Hospital's name; same address alone is insufficient under the rule, so it cannot be confirmed as this facility's legal or operator name."
+ },
+ "490126|1780813881": {
+  "match": true,
+  "reason": "Same Low Moor VA hospital at the same address: Columbia-Alleghany Regional Hospital is a former name of Lewis-Gale Hospital - Alleghany, and the NPPES hospital taxonomy 275N00000X fits."
+ },
+ "490126|1285932962": {
+  "match": true,
+  "reason": "Same address (One ARH Lane, Low Moor VA); the NPPES record uses the hospital's former legal name, Columbia-Alleghany Regional Hospital, and its subpart-1 taxonomy suggests a unit of this same hospital rather than a separate co-located facility."
+ },
+ "492010|1114021326": {
+  "match": false,
+  "reason": "Record B is the parent system Centra Health Inc (NPPES, subpart 0, taxonomy 276400000X, ZIP 24505), not this specialty hospital under its own, former, or operator name; the shared address with other Centra entities is excluded by the rule."
+ },
+ "500084|1013074061": {
+  "match": true,
+  "reason": "NPPES entity is Public Hospital District 1 of Snohomish County, the legal operator of Evergreen Health Monroe, at the same address with a general acute care hospital taxonomy."
+ },
+ "500084|1134489925": {
+  "match": true,
+  "reason": "Same street address (14701 179th Ave SE, Monroe WA 98272) and a hospital taxonomy (282N00000X) point to the legal public hospital district operating Evergreen Health Monroe, not a separate co-located facility; the district name is inferred, not confirmed."
+ },
+ "504004|1467440602": {
+  "match": false,
+  "reason": "Record B is a state Department of Social and Health Services institutions division entity at the same address, not Eastern State Hospital under its legal, former or operator name; no clear link to the CMS hospital provider."
+ },
+ "504004|1679651970": {
+  "match": false,
+  "reason": "Record B is a pharmacy (taxonomy 3336L0003X, a retail/institutional pharmacy NPI) at the same address, not the hospital itself or one of its own units; the rule excludes co-located entities like this."
+ },
+ "510030|1619964806": {
+  "match": true,
+  "reason": "Same name (Davis Memorial Hospital) and same city/ZIP; address 812 Gorman Ave matches the CMS intersection of Gorman Avenue and Reed Street, and taxonomy 282N00000X (general acute hospital) indicates the hospital facility itself."
+ },
+ "510030|1720275571": {
+  "match": true,
+  "reason": "Both records name Davis Memorial Hospital at the same Elkins, WV location (Gorman Avenue/812 Gorman Avenue), and taxonomy 282NR1301X is a general acute care hospital code, so B is the hospital's own NPPES record under its operator-style name."
+ },
+ "510038|1477559433": {
+  "match": true,
+  "reason": "NPPES record uses the hospital's legal entity name (Stonewall Jackson Memorial Hospital Company) at the same street address (230 Hospital Plaza, Weston WV 26452), with only abbreviation differences, so it is the same facility under its legal name."
+ },
+ "510038|1154517118": {
+  "match": false,
+  "reason": "Record B is a physician group (NPPES, subpart 0, general acute care taxonomy for a group practice) at the same address, not the hospital facility itself, so it falls under the physician practice exclusion."
+ },
+ "510058|1295042414": {
+  "match": false,
+  "reason": "Record B is a hospitalist physician management group (taxonomy 282N00000X, general acute care hospital type code, not a facility) at the same street address as Camden-Clark Memorial Hospital, which the rule excludes as a physician practice co-located at the address."
+ },
+ "511301|1679241152": {
+  "match": false,
+  "reason": "Name is similar and both are in Webster Springs WV, but the NPPES address (125 Diana Dr) differs from the CMS address (324 Miller Mountain Dr), so the records do not clearly show the same Medicare provider."
+ },
+ "511301|1265279715": {
+  "match": false,
+  "reason": "Names are similar, but the NPPES address (125 Diana Dr) differs from the CMS address (324 Miller Mountain Drive), so the records cannot be confirmed as the same facility."
+ },
+ "524017|1306850177": {
+  "match": false,
+  "reason": "Record B is a Human Services Board (a separate governmental/administrative entity) at a nearby address 1150 vs 1100 Lake View Dr, with a psychiatric-hospital taxonomy but no evidence it is the same Medicare-enrolled hospital under a legal, former, or operator name."
+ },
+ "524017|1932714292": {
+  "match": false,
+  "reason": "Record B is a Human Services Board entity at a different street address (2380 Marshall St vs 1100 Lake View Drive) with a different taxonomy, not the hospital under its legal or former name."
+ },
+ "670004|1659362630": {
+  "match": true,
+  "reason": "Same facility: St. Mark's Medical Center at 1 Saint Marks Place (One St Mark's Place), La Grange TX 78945, with matching name and address variants."
+ },
+ "670004|1447287131": {
+  "match": false,
+  "reason": "NPPES record has taxonomy 363LF0000X (nurse practitioner, a individual clinician type) with subpart 0 and no facility-level organization identity, so it describes a practitioner rather than the hospital itself, though the name and address align."
+ },
+ "670136|1902366305": {
+  "match": false,
+  "reason": "Name differs (Capitol Area vs. Medical Center - Austin), the address numbers differ (5245 vs. 5251 W Hwy 290), and NPPES subpart 0 suggests a separate organizational record, so it is not clearly the same CMS hospital."
+ },
+ "670266|1487968434": {
+  "match": false,
+  "reason": "Record B is a physician practice (Lou-Al Cardiac Center, PLLC, general acute care taxonomy 282N00000X) at the same address as Townsen Memorial Hospital, which the rule excludes as a co-located entity."
+ },
+ "670266|1356655922": {
+  "match": false,
+  "reason": "Record B is a physician practice (Humble Spine & Pain Management PLLC) at the same address as Townsen Memorial Hospital, which the rule explicitly excludes as a co-located entity."
+ },
+ "670266|1366756934": {
+  "match": false,
+  "reason": "Record B is a physician practice (Humble Spine Surgery PLLC, general hospital taxonomy 282N00000X but subpart 0 and a separate entity) co-located at the same address, not Townsen Memorial Hospital or its units."
+ },
+ "670266|1316225220": {
+  "match": false,
+  "reason": "Record B is a surgical associates physician practice (PLLC) at the same address, which the rule explicitly excludes as a co-located entity, not the hospital or its units."
+ },
+ "670266|1750669206": {
+  "match": false,
+  "reason": "Record B is JVEB Enterprises, PLLC, an entity with general hospital taxonomy 282N00000X at the same address, not Townsen Memorial Hospital or its legal/former/operator name; sharing an address with a co-located entity does not establish a match."
+ },
+ "670266|1902246119": {
+  "match": false,
+  "reason": "Record B is a physician practice (Houston Lonestar Associates, PLLC, general acute care taxonomy 282N00000X) co-located at the same address, which the rule explicitly excludes from matching the hospital in record A."
+ },
+ "440173|1558343566": {
+  "match": false,
+  "reason": "Different addresses and cities (Knoxville 9352 Park West Blvd vs Louisville 2347 Jones Bend Rd); NPPES record is a hospital-taxonomy entity with same name but no address match, so not the same facility."
+ }
+}

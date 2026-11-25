@@ -1,0 +1,52 @@
+hospitals 6942, systems 715, labels [(2018, 3859), (2022, 4158)]
+[random] name_rule|full         MRR 0.387  H@1 0.337  H@10 0.494  AUROC 0.791  (0.1s)
+[random] spectral|full          MRR 0.524  H@1 0.450  H@10 0.665  AUROC 0.864  (0.3s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[random] gbm_votes|full         MRR 0.886  H@1 0.862  H@10 0.928  AUROC 0.972  (1.5s)
+[random] sage|full              MRR 0.597  H@1 0.498  H@10 0.772  AUROC 0.954  (43.2s)
+[random] rgcn|full              MRR 0.560  H@1 0.462  H@10 0.785  AUROC 0.968  (40.8s)
+[random] spectral|noA           MRR 0.515  H@1 0.446  H@10 0.636  AUROC 0.857  (0.3s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[random] gbm_votes|noA          MRR 0.882  H@1 0.857  H@10 0.925  AUROC 0.971  (1.2s)
+[random] sage|noA               MRR 0.558  H@1 0.460  H@10 0.748  AUROC 0.932  (39.9s)
+[random] rgcn|noA               MRR 0.670  H@1 0.595  H@10 0.817  AUROC 0.971  (81.2s)
+[random] spectral|noB           MRR 0.466  H@1 0.388  H@10 0.612  AUROC 0.838  (0.2s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[random] gbm_votes|noB          MRR 0.835  H@1 0.806  H@10 0.899  AUROC 0.963  (1.0s)
+[random] sage|noB               MRR 0.531  H@1 0.439  H@10 0.708  AUROC 0.930  (28.1s)
+[random] rgcn|noB               MRR 0.533  H@1 0.433  H@10 0.760  AUROC 0.954  (41.7s)
+[random] spectral|C_only        MRR 0.210  H@1 0.139  H@10 0.333  AUROC 0.763  (0.1s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[random] gbm_votes|C_only       MRR 0.596  H@1 0.519  H@10 0.752  AUROC 0.909  (0.9s)
+[random] sage|C_only            MRR 0.426  H@1 0.317  H@10 0.663  AUROC 0.922  (12.7s)
+[random] rgcn|C_only            MRR 0.479  H@1 0.383  H@10 0.686  AUROC 0.939  (49.8s)
+[temporal] name_rule|full         MRR 0.265  H@1 0.219  H@10 0.364  AUROC 0.647  (0.2s)
+[temporal] spectral|full          MRR 0.203  H@1 0.161  H@10 0.274  AUROC 0.464  (0.3s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal] gbm_votes|full         MRR 0.409  H@1 0.333  H@10 0.522  AUROC 0.791  (1.4s)
+[temporal] sage|full              MRR 0.173  H@1 0.130  H@10 0.261  AUROC 0.549  (27.3s)
+[temporal] rgcn|full              MRR 0.161  H@1 0.101  H@10 0.285  AUROC 0.601  (52.4s)
+[temporal] spectral|noA           MRR 0.207  H@1 0.168  H@10 0.271  AUROC 0.460  (0.3s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal] gbm_votes|noA          MRR 0.404  H@1 0.332  H@10 0.508  AUROC 0.790  (1.1s)
+[temporal] sage|noA               MRR 0.159  H@1 0.104  H@10 0.272  AUROC 0.532  (13.9s)
+[temporal] rgcn|noA               MRR 0.183  H@1 0.130  H@10 0.285  AUROC 0.618  (46.4s)
+[temporal] spectral|noB           MRR 0.173  H@1 0.128  H@10 0.252  AUROC 0.451  (0.2s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal] gbm_votes|noB          MRR 0.385  H@1 0.322  H@10 0.490  AUROC 0.785  (1.1s)
+[temporal] sage|noB               MRR 0.155  H@1 0.111  H@10 0.258  AUROC 0.520  (13.6s)
+[temporal] rgcn|noB               MRR 0.176  H@1 0.121  H@10 0.297  AUROC 0.614  (30.4s)
+[temporal] spectral|C_only        MRR 0.105  H@1 0.074  H@10 0.158  AUROC 0.404  (0.2s)
+venv-graph\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal] gbm_votes|C_only       MRR 0.314  H@1 0.253  H@10 0.442  AUROC 0.762  (1.0s)
+[temporal] sage|C_only            MRR 0.158  H@1 0.110  H@10 0.266  AUROC 0.539  (12.1s)
+[temporal] rgcn|C_only            MRR 0.147  H@1 0.092  H@10 0.264  AUROC 0.562  (27.3s)
+{"test_changed": 993, "new_to_system": 491, "moved_between_systems": 502, "stayers": 3165, "persistence_acc_all_2022": 0.7611832611832612}

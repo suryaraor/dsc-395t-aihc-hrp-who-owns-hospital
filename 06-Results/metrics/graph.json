@@ -1,0 +1,61 @@
+{
+  "hospitals": 6942,
+  "edges_total": 61911,
+  "entities_total": 11857,
+  "by_relation": {
+    "city": {
+      "edges": 4017,
+      "entities": 1100,
+      "hospitals": 4017
+    },
+    "name_token": {
+      "edges": 9052,
+      "entities": 1665,
+      "hospitals": 5602
+    },
+    "official": {
+      "edges": 6604,
+      "entities": 1767,
+      "hospitals": 4162
+    },
+    "owner_org": {
+      "edges": 10732,
+      "entities": 1155,
+      "hospitals": 3260
+    },
+    "parent_lbn": {
+      "edges": 1311,
+      "entities": 366,
+      "hospitals": 1206
+    },
+    "person_cms": {
+      "edges": 30195,
+      "entities": 5804,
+      "hospitals": 3560
+    }
+  },
+  "edges_before_pruning": {
+    "city": 6942,
+    "name_token": 13543,
+    "official": 15814,
+    "owner_org": 12990,
+    "parent_lbn": 2910,
+    "person_cms": 52150
+  },
+  "by_tier": {
+    "A": 10732,
+    "B": 36799,
+    "C": 14380
+  },
+  "hospitals_with_any_tierA": 3260,
+  "hospitals_with_any_tierB": 5108,
+  "hospitals_isolated": 366,
+  "max_degree": {
+    "owner_org": 400,
+    "person_cms": 400,
+    "official": 200,
+    "parent_lbn": 200,
+    "city": 60,
+    "name_token": 60
+  }
+}

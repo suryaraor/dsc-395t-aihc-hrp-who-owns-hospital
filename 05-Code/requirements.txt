@@ -1,0 +1,19 @@
+# Python 3.11. Install torch from the CPU index first:
+#   pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.8.0
+torch-geometric==2.8.1
+duckdb==2.0.1
+pandas==3.1.1
+pyarrow==26.0.1
+numpy==2.4.6
+scipy==1.17.1
+rapidfuzz==3.14.6
+scikit-learn==1.9.1
+lightgbm==4.7.0
+statsmodels==0.15.0
+matplotlib==3.11.2
+sentence-transformers==6.3.0
+transformers==5.23.0
+requests==2.34.2
+anthropic==2.12.0   # optional: only used when ANTHROPIC_API_KEY is set
+pymupdf==2.1        # optional: PDF preview rendering only, not used by the pipeline

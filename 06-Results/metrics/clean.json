@@ -1,0 +1,30 @@
+{
+  "hospitals": 6942,
+  "hospitals_by_last_ahrq_year": {
+    "2022": 6632,
+    "2018": 310
+  },
+  "labels_by_year": {
+    "2018": 3877,
+    "2022": 4169
+  },
+  "systems_by_year": {
+    "2018": 637,
+    "2022": 640
+  },
+  "pos_match_rate": 0.9615384615384616,
+  "cost_report_match_rate": 0.8373667530970902,
+  "care_compare_match_rate": 0.7339383462978969,
+  "star_available": 3136,
+  "readmit_available": 4194,
+  "mspb_available": 2837,
+  "owner_rows": 120227,
+  "owner_rows_by_type": {
+    "I": 99955,
+    "O": 20272
+  },
+  "owner_hospitals": 7269,
+  "owner_hospitals_in_universe": 4499,
+  "enroll_npi_pairs": 7269,
+  "pos_multi_owned_share": 0.0
+}

@@ -1,0 +1,78 @@
+{
+  "hospitals": 6942,
+  "nppes_active_orgs": 34241,
+  "labeled_pairs": 13663,
+  "labeled_pairs_strict": 4462,
+  "labeled_hospitals": 4462,
+  "candidate_pairs": 459597,
+  "blocking_recall": 0.9958281490155896,
+  "pairs_per_hospital": 66.20527225583406,
+  "test_pairs": 67769,
+  "test_positives": 2783,
+  "results_test": {
+    "rule_name90_zip": {
+      "precision": 0.7495917256396298,
+      "recall": 0.4947897951850521,
+      "f1": 0.5961038961038961,
+      "auprc": 0.3916372855967019
+    },
+    "C1_fuzzy_LR": {
+      "precision": 0.7774921451013996,
+      "recall": 0.9780812073302192,
+      "f1": 0.8663271801400382,
+      "auprc": 0.919426379090821
+    },
+    "C2_fuzzy_emb_LGBM": {
+      "precision": 0.9018194301407484,
+      "recall": 0.9439453826805605,
+      "f1": 0.9224016853932584,
+      "auprc": 0.9268056918227627
+    },
+    "C3_C2_plus_LLM": {
+      "precision": 0.9027921406411582,
+      "recall": 0.9410707869205893,
+      "f1": 0.9215341308937368,
+      "auprc": 0.9176053455534926
+    }
+  },
+  "llm_band": {
+    "n": 216,
+    "positives": 124,
+    "acc_c2": 0.6388888888888888,
+    "acc_c3": 0.6203703703703703,
+    "objective_audit": {
+      "n": 67,
+      "true_matches": 46,
+      "acc_c2": 0.582089552238806,
+      "acc_c3": 0.7611940298507462
+    },
+    "silver_vs_llm": {
+      "silver1_llm1": 78,
+      "silver1_llm0": 46,
+      "silver0_llm1": 36,
+      "silver0_llm0": 56
+    }
+  },
+  "top1_acc": {
+    "p_c1": 0.9148936170212766,
+    "p_c2": 0.916013437849944,
+    "p_c3": 0.9193729003359462
+  },
+  "feature_gain": {
+    "name_tset": 11604.4,
+    "name_ratio": 10373.0,
+    "name_partial": 7938.5,
+    "addr_tset": 73150.7,
+    "street_no_eq": 504836.0,
+    "zip_eq": 23292.5,
+    "city_eq": 718.1,
+    "phone_eq": 8471.8,
+    "emb_cos": 17763.7,
+    "is_subpart": 718.8,
+    "tax_general_acute": 894.7
+  },
+  "crosswalk_hospitals": 6705,
+  "crosswalk_pairs": 22076,
+  "coverage": 0.9658599827139153,
+  "llm_source": "anthropic-api"
+}

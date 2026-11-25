@@ -1,0 +1,48 @@
+{
+  "random": {
+    "test": 624,
+    "misses": 86,
+    "causes": {
+      "no_signal": 37,
+      "isolated": 17,
+      "other": 15,
+      "cold_start": 15,
+      "rival_neighbors": 2
+    }
+  },
+  "temporal": {
+    "test": 993,
+    "misses": 662,
+    "causes": {
+      "cold_start": 254,
+      "successor_sys": 200,
+      "no_signal": 64,
+      "merger_move": 51,
+      "isolated": 33,
+      "rival_neighbors": 33,
+      "other": 27
+    },
+    "reid_systems": 10,
+    "test_in_reid_systems": 218
+  },
+  "er": {
+    "top_fp": 20,
+    "top_fn": 20,
+    "llm_rejection_reasons": {
+      "Physician PLLC in the hospital building": 6,
+      "Mobile Infirmary main hospital, not the co-located LTAC": 3,
+      "Dignity Health (St. Joseph's) host; the CCN is the Select Specialty LTACH inside it": 2,
+      "EMS / emergency physician group": 2,
+      "Carolinas Medical Center is a different Atrium hospital (Vail Ave campus)": 2,
+      "Parkside outpatient site, not the inpatient hospital": 2,
+      "Noland LTACH co-located inside the host hospital; separate provider": 1,
+      "Mobile Infirmary rehab unit; the CCN is the separate Infirmary LTAC hospital": 1,
+      "Mobile Infirmary psych unit, not the LTAC": 1,
+      "Select Specialty LTACH inside Banner; separate provider": 1,
+      "Permanente Medical Group is the physician group, not Kaiser Foundation Hospital": 1,
+      "Orlando Health corporate registration at a different downtown address": 1
+    },
+    "llm_rejections": 54,
+    "llm_accepts": 162
+  }
+}

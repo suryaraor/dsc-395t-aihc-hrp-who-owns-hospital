@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv*/
+.venv/
+
+# Data: rebuilt by 05-Code/00_download.py (see README)
+04-Data/raw/*
+!04-Data/raw/_manifest.json
+04-Data/clean/*
+!04-Data/clean/llm_verdicts_api.json
+!04-Data/clean/llm_verdicts.json
+!04-Data/clean/llm_band_pairs.json
+
+
+# LaTeX build artifacts
+*.aux
+*.log
+!06-Results/metrics/*.log
+*.out
+*.blg
+*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.env

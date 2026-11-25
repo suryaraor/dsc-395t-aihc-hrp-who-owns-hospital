@@ -1,0 +1,98 @@
+{
+  "ahrq_hospital_linkage_2022.csv": {
+    "file": "ahrq_hospital_linkage_2022.csv",
+    "source": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-hospital-linkage-2022-rev.csv",
+    "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-hospital-linkage-2022-rev.csv",
+    "bytes": 1162828,
+    "sha256": "9809b2972f0db28983eb80b2d384bc75f21e66ff726dc818127ca4d99ad7bc62",
+    "fetched_at": "2026-11-21T01:04:22+00:00"
+  },
+  "ahrq_systems_2022.csv": {
+    "file": "ahrq_systems_2022.csv",
+    "source": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-compendium-2022.csv",
+    "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-compendium-2022.csv",
+    "bytes": 91306,
+    "sha256": "80b0b36eee01e99e62cc184652378788ba5ddaf594f18e69d4e042eebcae0400",
+    "fetched_at": "2026-11-21T01:04:22+00:00"
+  },
+  "ahrq_hospital_linkage_2018.csv": {
+    "file": "ahrq_hospital_linkage_2018.csv",
+    "source": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-hospital-linkage-2018.csv",
+    "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-hospital-linkage-2018.csv",
+    "bytes": 808537,
+    "sha256": "ee0b1befa2284d3a5904b2794585fd0f0f00409b919acb8eceabd4ede424e37d",
+    "fetched_at": "2026-11-21T01:04:22+00:00"
+  },
+  "ahrq_systems_2018.csv": {
+    "file": "ahrq_systems_2018.csv",
+    "source": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-compendium-2018.csv",
+    "url": "https://www.ahrq.gov/sites/default/files/wysiwyg/chsp/compendium/chsp-compendium-2018.csv",
+    "bytes": 73040,
+    "sha256": "f31fa91cd258a96109cc7cd49a45e43c05fa5d1028621b1a84db2e38c36d0fa4",
+    "fetched_at": "2026-11-21T01:04:22+00:00"
+  },
+  "cms_hospital_all_owners_2022-12.csv": {
+    "file": "cms_hospital_all_owners_2022-12.csv",
+    "source": "https://data.cms.gov/sites/default/files/2026-06/0692ea5b-6fc1-4aed-8b25-48f5e67b9951/Hospital_All_Owners_2022.12.30.csv",
+    "url": "https://data.cms.gov/sites/default/files/2026-06/0692ea5b-6fc1-4aed-8b25-48f5e67b9951/Hospital_All_Owners_2022.12.30.csv",
+    "bytes": 19906311,
+    "sha256": "cadf61b83bc3990b4090ebc29ab682eaa0335b1e2d1c6ad8b2f6233a73caac2a",
+    "fetched_at": "2026-11-21T00:18:55+00:00"
+  },
+  "cms_hospital_enrollments_2022-12.csv": {
+    "file": "cms_hospital_enrollments_2022-12.csv",
+    "source": "https://data.cms.gov/sites/default/files/2023-01/438b668c-0361-4482-9ac1-98fca829b310/Hospital_Enrollments_2022.12.30.csv",
+    "url": "https://data.cms.gov/sites/default/files/2023-01/438b668c-0361-4482-9ac1-98fca829b310/Hospital_Enrollments_2022.12.30.csv",
+    "bytes": 1982463,
+    "sha256": "88dfc0fa9dd768552a22e2c7c1e0d612f0b44400a11645f864c808a9aa173bab",
+    "fetched_at": "2026-11-21T00:18:55+00:00"
+  },
+  "cms_pos_other_2022-12.csv": {
+    "file": "cms_pos_other_2022-12.csv",
+    "source": "https://data.cms.gov/sites/default/files/2023-01/77f97345-7163-4c5d-befd-f01935192b6d/POS_OTHER_DEC22.csv",
+    "url": "https://data.cms.gov/sites/default/files/2023-01/77f97345-7163-4c5d-befd-f01935192b6d/POS_OTHER_DEC22.csv",
+    "bytes": 112543496,
+    "sha256": "e8a5d43e0b138078b50a4b7469a9d5b2b6b2b109e6fe7c9009235cd9d09116c6",
+    "fetched_at": "2026-11-21T00:18:55+00:00"
+  },
+  "cms_cost_report_2022.csv": {
+    "file": "cms_cost_report_2022.csv",
+    "source": "https://data.cms.gov/sites/default/files/2026-10/1be4ec08-6d9d-4e05-b871-c4d74fe81089/CostReport_2022_Final.csv",
+    "url": "https://data.cms.gov/sites/default/files/2026-10/1be4ec08-6d9d-4e05-b871-c4d74fe81089/CostReport_2022_Final.csv",
+    "bytes": 4132213,
+    "sha256": "4633eaa53eed156bb6480ba76c4fad426236a3b4f7a345a77f12bd511c427a4f",
+    "fetched_at": "2026-11-21T00:18:55+00:00"
+  },
+  "cc_hospital_general_info.csv": {
+    "file": "cc_hospital_general_info.csv",
+    "source": "provider-data:xubh-q36u",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/d3bf87c5505155f549d603688414f3c6_1793059553/Hospital_General_Information_2.csv",
+    "bytes": 1461350,
+    "sha256": "ff2a82a7149975fb86348e7f901aa3bcd9f3701e8b0ecd0ab34702df193ff559",
+    "fetched_at": "2026-11-21T00:18:56+00:00"
+  },
+  "cc_unplanned_visits.csv": {
+    "file": "cc_unplanned_visits.csv",
+    "source": "provider-data:632h-zaca",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/30edc1d0417a34b58affcc2495a02b0a_1792599927/Unplanned_Hospital_Visits-Hospital.csv",
+    "bytes": 18761989,
+    "sha256": "c89470bb1fa175dbe4765c4f61609cc02d14bf321006eb2408886a8173b029d7",
+    "fetched_at": "2026-11-21T00:18:58+00:00"
+  },
+  "cc_mspb.csv": {
+    "file": "cc_mspb.csv",
+    "source": "provider-data:rrqw-56er",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/69874ce604586980ac088283c1b35095_1792599862/Medicare_Hospital_Spending_Per_Patient-Hospital.csv",
+    "bytes": 990388,
+    "sha256": "f4eb06c2b80f55a31d6e6f45525dc0e866e6ee571ab013bdcab720beda19a45e",
+    "fetched_at": "2026-11-21T00:18:59+00:00"
+  },
+  "nppes_full.zip": {
+    "file": "nppes_full.zip",
+    "source": "https://download.cms.gov/nppes/NPPES_Data_Dissemination_November_2026_V2.zip",
+    "url": "https://download.cms.gov/nppes/NPPES_Data_Dissemination_November_2026_V2.zip",
+    "bytes": 1130479129,
+    "sha256": "c5a34fba9b2e04bcb87358a1e3f9f4bbfc79b49b71fb37b71f9de43570c18713",
+    "fetched_at": "2026-11-21T00:21:11+00:00"
+  }
+}

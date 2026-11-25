@@ -1,0 +1,48 @@
+{
+  "random": {
+    "test": 624,
+    "misses": 93,
+    "causes": {
+      "no_signal": 38,
+      "other": 21,
+      "isolated": 17,
+      "cold_start": 15,
+      "rival_neighbors": 2
+    }
+  },
+  "temporal": {
+    "test": 993,
+    "misses": 659,
+    "causes": {
+      "cold_start": 254,
+      "successor_sys": 200,
+      "no_signal": 64,
+      "merger_move": 51,
+      "rival_neighbors": 33,
+      "isolated": 32,
+      "other": 25
+    },
+    "reid_systems": 10,
+    "test_in_reid_systems": 218
+  },
+  "er": {
+    "top_fp": 20,
+    "top_fn": 20,
+    "llm_rejection_reasons": {
+      "Record B is Noland Hospital Dothan II, LLC, a separate long-term acute care hospital (taxonomy 282E00000X) co-located at the Southeast Health campus address, not Southeast Health Medical Center itself.": 1,
+      "A is the Infirmary Ltac Hospital, a separate long-term acute care hospital co-located at the address; B is the Mobile Infirmary Association general acute care entity, which is not the same Medicare provider.": 1,
+      "CMS record A is the co-located Infirmary Ltac Hospital, a separate long-term acute care provider, not the Mobile Infirmary Association's acute hospital under its operator or former name, so the rule excludes it.": 1,
+      "CMS record A is the Infirmary Ltac Hospital, a separate co-located long-term acute care hospital, which the rule excludes; NPPES record B is the operator's organization record and does not establish that A is the same Medicare provider.": 1,
+      "Record A is Infirmary Ltac Hospital, a long-term acute care hospital at the Mobile Infirmary campus, while B is the Mobile Infirmary Association organization (general acute care taxonomy); the rule excludes a co-located LTAC hospital from matching the parent hospital.": 1,
+      "A is the Infirmary Ltac Hospital (a long-term acute care hospital), and B is an NPPES entry under the parent system name 'Infirmary Health' with a long-term care hospital taxonomy at the same address, so it reads as the co-located LTAC or its operator rather than a clear match.": 1,
+      "Record A is the co-located Infirmary LTAC hospital, while record B is the Mobile Infirmary Association, the parent operator of the general acute care hospital, so it does not describe the same Medicare provider.": 1,
+      "Record B is Select Specialty Hospital - Arizona, a separate long-term acute care hospital at the same address (floor 11), not Banner University Medical Center Phoenix.": 1,
+      "Record B is an NPPES entity under Dignity Health with generic general acute care taxonomy and no facility name; address differs in ZIP (85296 vs 85297) and street suffix, so it cannot be confirmed as Mercy Gilbert Medical Center's own unit or name.": 1,
+      "Record A (Ssh - Phoenix, a Select Specialty LTCH on the 3rd floor) is a separate co-located long-term acute care hospital, not the Dignity Health acute hospital in record B, so the rule excludes it.": 1,
+      "Record A (Ssh - Phoenix) appears to be a co-located long-term acute care hospital at the same address, not the Dignity Health hospital itself, so the rule excludes it.": 1,
+      "Record B is an NPPES entity under the parent operator Scripps Health with taxonomy 273R00000X (psychiatric/hospital-type unit code not clearly this hospital), and no hospital-specific name matches; it is only an address-level match and cannot be confirmed as Scripps Mercy Hospital's own Medicare provider.": 1
+    },
+    "llm_rejections": 102,
+    "llm_accepts": 114
+  }
+}

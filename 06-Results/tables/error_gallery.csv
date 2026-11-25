@@ -1,0 +1,47 @@
+split,cause,ccn,hospital,state,true_system,predicted,true_in_top5
+random,cold_start,050292,Riverside University Health System,CA,Riverside University Health System,Loma Linda University Health,True
+random,cold_start,330197,Canton-Potsdam Hospital,NY,Saint Lawrence Health System,Rochester Regional Health System,True
+random,cold_start,360051,Miami Valley Hospital,OH,Premier Health,Dayton Childrens,True
+random,cold_start,360179,Bethesda Hospital,OH,TriHealth,CommonSpirit Health,True
+random,isolated,101309,Hendry Regional Medical Center,FL,Quorum Health Corporation,AdventHealth,False
+random,isolated,061305,Melissa Memorial Hospital,CO,Banner Health,Childrens Hospital Colorado,False
+random,isolated,121304,Kahuku Medical Center,HI,Hawaii Health Systems Corporation,The Queens Health Systems,True
+random,isolated,341324,The Outer Banks Hospital,NC,ECU Health,Advocate Health,True
+random,no_signal,441305,Macon County General Hospital,TN,Quorum Health Corporation,Ardent Health Services,False
+random,no_signal,371324,Harper County Community Hospital,OK,SSM Health,Saint Francis Health System,False
+random,no_signal,360125,Ashtabula County Medical Center,OH,Cleveland Clinic,Bon Secours Mercy Health,False
+random,no_signal,280134,Kearney Regional Medical Center,NE,Bryan Health,Methodist Health System,True
+random,other,160029,Mercy Hospital Iowa City,IA,Trinity Health,University of Iowa Hospitals and Clinics,True
+random,other,030118,Yavapai Regional Medical Center East Campus,AZ,CommonSpirit Health,Yavapai Regional Medical Center,False
+random,other,390156,Mercy Catholic Medical Center,PA,Trinity Health,Mercy,False
+random,other,190079,St. Charles Parish Hospital,LA,Ochsner Health System,Christus Health,True
+random,rival_neighbors,363036,University Hospitals Rehab Hospital,OH,University Hospitals,Lifepoint Health,True
+random,rival_neighbors,074000,Saint Vincents Medical Center Behavioral Health Services,CT,Hartford Healthcare,Ascension Health,True
+temporal,cold_start,010012,Dekalb Regional Medical Center,AL,Quorum Health Corporation,Ardent Health Services,False
+temporal,cold_start,010022,Cherokee Medical Center,AL,Advocate Health,Floyd Medical Center,False
+temporal,cold_start,010024,Jackson Hospital And Clinic  Inc,AL,The Jackson Clinic PA,Mayo Clinic Health System,True
+temporal,cold_start,010036,Andalusia Regional Hospital,AL,ScionHealth,Lifepoint Health,False
+temporal,isolated,010069,Medical Center Barbour,AL,Norton Healthcare,Infirmary Health System,False
+temporal,isolated,040050,Ouachita County Medical Center,AR,Quorum Health Corporation,Baptist Health,False
+temporal,isolated,041302,Dardanelle Hospital,AR,Conway Regional Health System,Baptist Health,False
+temporal,isolated,051332,Mark Twain Medical Center,CA,CommonSpirit Health,Dignity Health,False
+temporal,merger_move,030131,Oasis Hospital,AZ,Tenet Healthcare,Dignity Health,True
+temporal,merger_move,033040,Dignity Health East Valley Rehab Hos,AZ,Lifepoint Health,Dignity Health,True
+temporal,merger_move,050438,Huntington Hospital,CA,Cedars Sinai Health System,Huntington Memorial Hospital,True
+temporal,merger_move,050471,Pih Health Good Samaritan Hospital,CA,PIH Health,Good Samaritan Hospital,True
+temporal,no_signal,010065,Russell Medical Center,AL,UAB Health System,Childrens of Alabama,True
+temporal,no_signal,010086,Northwest Medical Center,AL,UAB Health System,North Mississippi Health Services,True
+temporal,no_signal,011304,Choctaw General Hospital,AL,Ochsner Health System,Rush Health Systems,False
+temporal,no_signal,060004,Platte Valley Medical Center,CO,Intermountain Healthcare,SCL Health,False
+temporal,other,033042,Bhsm Rehabilitation,AZ,Banner Health,SSM Health,True
+temporal,other,054157,Glendora Hospital,CA,Prime Healthcare Services,Adventist Health,False
+temporal,other,056479,Fairmont Hospital District,CA,Alameda Health System,Alecto Healthcare Services,False
+temporal,other,143029,Anderson Rehabilitation Hospital,IL,Lifepoint Health,Anderson Medical Group,True
+temporal,rival_neighbors,034040,Via Linda Behavioral Hospital,AZ,HonorHealth,Universal Health Services,True
+temporal,rival_neighbors,070004,Sharon Hospital,CT,Nuvance Health,Health Quest,True
+temporal,rival_neighbors,100210,Florida Medical Center,FL,Steward Health Care System,Tenet Healthcare,False
+temporal,rival_neighbors,140049,West Suburban Hosp Med Ctr,IL,Pipeline Health,Tenet Healthcare,False
+temporal,successor_sys,030012,Yavapai Regional Medical Center,AZ,CommonSpirit Health,Yavapai Regional Medical Center,False
+temporal,successor_sys,030024,St. Josephs Hospital & Medical Ctr,AZ,CommonSpirit Health,Dignity Health,False
+temporal,successor_sys,030036,Chandler Regional Medical Center,AZ,CommonSpirit Health,Dignity Health,False
+temporal,successor_sys,030112,Arizona Orthopedic Surgical Hospital,AZ,CommonSpirit Health,Dignity Health,False

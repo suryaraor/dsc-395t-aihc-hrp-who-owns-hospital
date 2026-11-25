@@ -1,0 +1,5 @@
+,precision,recall,f1,auprc
+rule_name90_zip,0.75,0.495,0.596,0.392
+C1_fuzzy_LR,0.777,0.978,0.866,0.919
+C2_fuzzy_emb_LGBM,0.902,0.944,0.922,0.927
+C3_C2_plus_LLM,0.903,0.941,0.922,0.918
